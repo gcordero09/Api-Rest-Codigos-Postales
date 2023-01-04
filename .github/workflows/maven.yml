@@ -31,6 +31,8 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Ruta actual
       run: pwd
+    - name: Directorios de la Ruta
+      run: ls
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
