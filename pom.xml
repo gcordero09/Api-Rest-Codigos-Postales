@@ -14,7 +14,7 @@
 	<name>ApiRestCorreosDeMexico</name>
 	<description>Api Rest For Deploy </description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
