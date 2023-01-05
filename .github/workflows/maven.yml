@@ -50,5 +50,7 @@ jobs:
         java-version: '19'
         distribution: 'temurin'
         cache: maven
+    - name: Permisos ejecucion
+      run: chmod +x ./mvnw
     - name: Ejecucion servidor
       run: ./mvnw spring-boot:run
