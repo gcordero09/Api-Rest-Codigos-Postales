@@ -51,6 +51,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Permisos ejecucion
-      run: chmod +x ./mvnw
+      run: chmod +x /target/classes/application.properties
+      #run: chmod +x ./mvnw
     - name: Ejecucion servidor
       run: ./mvnw spring-boot:run
