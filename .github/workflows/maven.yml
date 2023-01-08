@@ -48,4 +48,4 @@ jobs:
     - name: Permisos de ejecución
       run: chmod +x ./mvnw
     - name: Ejecucion servidor
-      run: xterm ./mvnw spring-boot:run -Djava.net.preferIPv4Stack=true
+      run: ./mvnw spring-boot:run -Djava.net.preferIPv4Stack=true > /dev/null 2>&1 &
