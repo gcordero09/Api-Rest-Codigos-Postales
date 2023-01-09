@@ -47,5 +47,5 @@ jobs:
         cache: maven
     - name: Permisos de ejecución
       run: chmod +x ./mvnw
-    - name: Ejecucion servidor
-      run: ./mvnw spring-boot:run -Djava.net.preferIPv4Stack=true
+    #- name: Ejecucion servidor
+    #  run: ./mvnw spring-boot:run -Djava.net.preferIPv4Stack=true
